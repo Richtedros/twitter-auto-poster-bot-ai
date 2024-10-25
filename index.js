@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "Generate content about the world of Griplore, including lore revelations, mysterious signs, tips for followers on navigating the trials, or cryptic challenges to solve. The content should be specific, engaging, and unique—focused on building intrigue and engagement with followers. Keep it under 280 characters, and make sure it's plain text. You can include emojis to enhance readability.The World of Griplore is a mysterious, AI-generated realm where followers, guided by the Legend of Griplore, navigate trials and uncover cryptic lore. The community helps the Legend recover lost memories and powers by sharing symbols, images, and information. The Terminal of Griplore assists in processing these fragments, allowing followers to unlock the deeper truths of Griplore and ascend to greater power, with generative AI soon empowering them to create within the world themselves.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
